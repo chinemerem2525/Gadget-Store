@@ -1,0 +1,58 @@
+.hero_background_img
+{
+  background-image: url(../../../../assets/img/bg/hero_bg.jpg);
+}
+
+.add_banner_background_img
+{
+  /* background-image: url(../../../../assets/img/bg/cat_bg.jpg); */
+  background-color: #EFEFEF;
+}
+
+.category_background_img
+{
+  background-image: url(../../../../assets/img/bg/cat_bg.jpg);
+
+}
+
+
+.ofer-box
+{
+  margin-top: 150px;
+}
+
+a
+{
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+ .banner__slide_items
+ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 20px 20px;
+  margin: 0px 20px;
+ }
+
+ .category__slide_item{
+  padding: 0px 20px;
+ }
+
+ .icons
+ {
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+.news
+{
+  display: flex;
+}

@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "736802c9-d292-436d-b92c-f8ebc01a6608"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -27,9 +30,35 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/fontawesome.css",
+              "src/assets/css/animate.css",
+              "src/assets/css/uikit.min.css",
+              "src/assets/css/metisMenu.css",
+              "src/assets/css/jquery-ui.css",
+              "src/assets/css/slick.css",
+              "src/assets/css/magnific-popup.css",
+              "src/assets/css/main.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.5.1.min.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/slick.js",
+              "src/assets/js/backToTop.js",
+              "src/assets/js/uikit.min.js",
+              "src/assets/js/resize-sensor.min.js",
+              "src/assets/js/theia-sticky-sidebar.min.js",
+              "src/assets/js/wow.min.js",
+              "src/assets/js/jqueryui.js",
+              "src/assets/js/touchspin.js",
+              "src/assets/js/countdown.js",
+              "src/assets/js/jquery.magnific-popup.min.js",
+              "src/assets/js/metisMenu.min.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,6 +123,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
